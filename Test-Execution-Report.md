@@ -35,7 +35,8 @@
 
 ## 4. Conclusion
 
-The SauceDemo application was assessed across authentication, product listing, shopping cart, and checkout functionalities.
+The SauceDemo application was tested across authentication, product listing, shopping cart management, and checkout functionalities.
 
-Seven test cases are currently marked as Passed, while four are marked as Failed and require re-testing to confirm their final status.
+Seven test cases passed, while four test cases failed based on the current recorded results.
 
+Further investigation and retesting are required to confirm the final status of the failed scenarios.
