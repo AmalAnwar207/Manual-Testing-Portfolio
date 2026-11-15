@@ -1,72 +1,82 @@
-# Test Plan – SauceDemo Application
+# Test Plan – SauceDemo
 
 ## 1. Project Information
 
-- **Project Name:** SauceDemo Manual Testing
-- **Application URL:** https://www.saucedemo.com/
-- **Testing Type:** Manual Testing
-- **Testing Approach:** Functional Testing
-- **Project Status:** In Progress
+| Field | Details |
+|---|---|
+| Project Name | SauceDemo Manual Testing |
+| Application | SauceDemo |
+| Application URL | https://www.saucedemo.com/ |
+| Testing Type | Manual Testing |
+| Project Status | In Progress |
 
 ## 2. Objective
 
-The objective of this project is to evaluate the main functionalities of the SauceDemo web application through manual testing, identify potential defects, and verify that the application behaves as expected.
+The objective of this project is to evaluate the main functionalities of the SauceDemo web application and verify that the application behaves according to the expected requirements.
+
+The testing process focuses on identifying functional issues, validating user inputs, and documenting defects.
 
 ## 3. Scope of Testing
 
-The following functionalities are included in the testing scope:
+### In Scope
+- Login with valid and invalid credentials.
+- Login field validation.
+- Logout functionality.
+- Product listing.
+- Adding and removing products from the cart.
+- Viewing the shopping cart.
+- Checkout with valid and missing information.
 
-- User Login and Authentication
-- Product Listing
-- Shopping Cart Management
-- Adding and Removing Products
-- Checkout Process
-- Input Validation
-- Logout Functionality
+### Out of Scope
+- Performance testing.
+- Security penetration testing.
+- Cross-browser compatibility testing.
+- Automated testing.
 
-## 4. Testing Types
+## 4. Testing Approach
 
-- Functional Testing
-- Positive Testing
-- Negative Testing
-- UI Testing
-- Validation Testing
+Manual functional testing will be performed using predefined test cases.
+
+Each test case includes:
+- Test Case ID.
+- Test Scenario.
+- Preconditions.
+- Test Steps.
+- Test Data.
+- Expected Result.
+- Actual Result.
+- Status.
 
 ## 5. Test Environment
 
-- **Application:** SauceDemo
-- **Platform:** Web Application
-- **Browser:** Microsoft Edge / Google Chrome
-- **Operating System:** Windows
-- **Testing Method:** Manual Execution
+| Item | Details |
+|---|---|
+| Application | SauceDemo |
+| Platform | Web Application |
+| Browser | Google Chrome |
+| Testing Type | Manual |
+| Test Account | standard_user |
 
 ## 6. Entry Criteria
-
-- The application is accessible.
+- Application is accessible.
 - Valid test credentials are available.
-- The required test scenarios have been prepared.
+- Test scenarios are prepared.
 
 ## 7. Exit Criteria
-
-- All planned test cases have been executed.
-- Actual results have been documented.
-- Identified defects have been recorded.
-- Test execution results have been reviewed.
+- All planned test cases have execution results.
+- Failed test cases are documented.
+- Test execution report is updated.
 
 ## 8. Deliverables
+- Test Plan.
+- Test Cases.
+- Test Execution Report.
+- Bug Reports.
 
-- Test Plan
-- Test Cases
-- Test Execution Report
-- Bug Reports
-- Supporting Screenshots
-
-## 9. Risks and Considerations
-
-- Application availability may affect test execution.
-- Test results may vary depending on the test environment.
-- All test results must be based on actual execution.
+## 9. Risks
+- Changes in application behavior.
+- Temporary application availability issues.
+- Test environment limitations.
 
 ## 10. References
-
-- SauceDemo: https://www.saucedemo.com/
+- Application: https://www.saucedemo.com/
