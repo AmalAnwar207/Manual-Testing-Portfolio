@@ -6,60 +6,77 @@
 - **Testing Type:** Manual Testing
 - **Status:** In Progress
 
----
+## Bug Report Summary
 
-## Bug Report Template
-
-| Field | Description |
-|---|---|
-| Bug ID | Unique bug identifier |
-| Test Case ID | Related test case |
-| Bug Title | Short description of the issue |
-| Preconditions | Conditions before testing |
-| Steps to Reproduce | Steps to reproduce the issue |
-| Expected Result | Expected application behavior |
-| Actual Result | Actual observed behavior |
-| Severity | Bug impact |
-| Priority | Fix urgency |
-| Status | New / Open / Fixed / Retest / Closed |
+| Bug ID | Related Test Case | Bug Title | Status |
+|---|---|---|---|
+| BR-01 | TC-02 | Login with Invalid Password | Open |
+| BR-02 | TC-04 | Login with Empty Password | Open |
+| BR-03 | TC-10 | Checkout with Valid Information | Open |
+| BR-04 | TC-11 | Checkout with Missing Information | Open |
 
 ---
 
-## Confirmed Bug Reports
+## BR-01: Login with Invalid Password
 
-### BR-01: Login with Invalid Password
 - **Related Test Case:** TC-02
-- **Status:** Open
-- **Expected Result:** The application should reject invalid credentials and display an appropriate error message.
-- **Actual Result:** The observed behavior did not match the expected result.
+- **Preconditions:** User is on the login page.
+- **Steps to Reproduce:**
+  1. Enter standard_user as the username.
+  2. Enter an invalid password.
+  3. Click Login.
+- **Expected Result:** Login should be rejected and an appropriate error message should appear.
+- **Actual Result:** Did not match the expected result. Specific behavior to be documented.
 - **Severity:** To be determined.
 - **Priority:** To be determined.
+- **Status:** Open
 
-### BR-02: Login with Empty Password
+## BR-02: Login with Empty Password
+
 - **Related Test Case:** TC-04
-- **Status:** Open
-- **Expected Result:** The application should prevent login and display a validation message when the password field is empty.
-- **Actual Result:** The observed behavior did not match the expected result.
+- **Preconditions:** User is on the login page.
+- **Steps to Reproduce:**
+  1. Enter a valid username.
+  2. Leave the password field empty.
+  3. Click Login.
+- **Expected Result:** Login should be prevented and a validation message should appear.
+- **Actual Result:** Did not match the expected result. Specific behavior to be documented.
 - **Severity:** To be determined.
 - **Priority:** To be determined.
+- **Status:** Open
 
-### BR-03: Checkout with Valid Information
+## BR-03: Checkout with Valid Information
+
 - **Related Test Case:** TC-10
-- **Status:** Open
-- **Expected Result:** The application should accept valid checkout information and allow the user to complete the checkout process.
-- **Actual Result:** The observed behavior did not match the expected result.
+- **Preconditions:** User is logged in and has a product in the cart.
+- **Steps to Reproduce:**
+  1. Open the shopping cart.
+  2. Click Checkout.
+  3. Enter valid first name, last name, and postal code.
+  4. Click Continue.
+  5. Attempt to complete checkout.
+- **Expected Result:** Application should accept valid information and allow checkout completion.
+- **Actual Result:** Did not match the expected result. Specific behavior to be documented.
 - **Severity:** To be determined.
 - **Priority:** To be determined.
+- **Status:** Open
 
-### BR-04: Checkout with Missing Information
+## BR-04: Checkout with Missing Information
+
 - **Related Test Case:** TC-11
-- **Status:** Open
-- **Expected Result:** The application should prevent checkout and display an appropriate validation message when required information is missing.
-- **Actual Result:** The observed behavior did not match the expected result.
+- **Preconditions:** User is logged in and has a product in the cart.
+- **Steps to Reproduce:**
+  1. Open the shopping cart.
+  2. Click Checkout.
+  3. Leave one or more required fields empty.
+  4. Click Continue.
+- **Expected Result:** Application should prevent checkout and display an appropriate validation message.
+- **Actual Result:** Did not match the expected result. Specific behavior to be documented.
 - **Severity:** To be determined.
 - **Priority:** To be determined.
+- **Status:** Open
 
 ---
 
 ## Notes
-All four issues were reported during manual testing and are currently marked as Open. Further investigation and retesting may be required.
+The four reported issues are currently marked as Open. Their actual behavior, severity, and priority should be documented in detail based on the observed test results.
