@@ -59,19 +59,22 @@ Each test case includes:
 
 ## 6. Entry Criteria
 - Application is accessible.
-- Valid test credentials are available.
-- Test scenarios are prepared.
+- Test credentials are available.
+- Test scenarios and test cases are prepared.
+- Test environment is ready.
 
 ## 7. Exit Criteria
 - All planned test cases have execution results.
-- Failed test cases are documented.
+- Failed test cases are documented in the Bug Reports file.
 - Test execution report is updated.
+- Test results are reviewed.
 
 ## 8. Deliverables
 - Test Plan.
 - Test Cases.
 - Test Execution Report.
 - Bug Reports.
+- README Documentation.
 
 ## 9. Risks
 - Changes in application behavior.
